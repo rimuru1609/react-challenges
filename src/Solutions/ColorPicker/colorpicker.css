@@ -1,7 +1,7 @@
-/* colorpicker.css */
-
 .preview {
     margin-top: 20px;
+    width: 900;
+    height: 200;
 }
 
 .colors-container {
@@ -10,7 +10,6 @@
 }
 
 button {
-    border: none;
     cursor: pointer;
 }
 

@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { useState } from 'react';
 import './App.css'
-import ColorPicker1 from './Solutions/ColorPicker/ColorPicker1'
+import ColorPicker from './Solutions/ColorPicker/ColorPicker'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <ColorPicker1 />
+    <ColorPicker />
   )
 }
 
