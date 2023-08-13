@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+
 import './App.css'
-import ColorPicker from './Solutions/ColorPicker/ColorPicker'
+import ScoreKeeper from './Solutions/ScoreKeeper'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <ColorPicker />
+    <>
+      <ScoreKeeper></ScoreKeeper>
+    </>
+
   )
 }
 
