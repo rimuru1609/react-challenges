@@ -1,8 +1,13 @@
-
+import React, { useState } from 'react';
 import './App.css'
-import SimpleCaculator from "./Solutions/SimpleCaculator";
+import ColorPicker from './Solutions/ColorPicker/ColorPicker'
+
 function App() {
-  return <SimpleCaculator/>
+  const [count, setCount] = useState(0)
+
+  return (
+    <ColorPicker />
+  )
 }
 
 export default App
