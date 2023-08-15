@@ -3,7 +3,7 @@ import { useState  } from 'react';
 function AccountRender() {
   
   
-   
+  
   return (
     <>
       <div className="account-type">

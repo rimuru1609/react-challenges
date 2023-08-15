@@ -10,7 +10,7 @@ export type InputProps = {
   age?: string;
   formErrors:{age:"",email:"",password:""}  ;
    
-  };
+  }; 
 export default function InputRender({
   handleChangeUser ,
   handleChangePass,

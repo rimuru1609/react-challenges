@@ -3,7 +3,7 @@ import './App.css'
 import AccountRender from './AccountRender';
 import InputRender from './InputRender';
 import ButtonRender from './ButtonRender';
-
+ 
 function Validator() {
     const [formValue, setFormValue] = useState({age:"",email:"",password:""});
     const [formErrors, setFormErrors] = useState({age:"",email:"",password:""});

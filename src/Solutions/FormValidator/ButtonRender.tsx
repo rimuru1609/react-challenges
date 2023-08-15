@@ -1,7 +1,7 @@
 import { useState  } from 'react';
 export type ButtonProps = {
   handleSubmit: (e: React.ChangeEvent<HTMLInputElement>) => void;
-
+ 
 };
 export default function ButtonRender({
   handleSubmit
