@@ -1,0 +1,47 @@
+body {
+    background-color: #CCBD33;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    background-color: #012755;
+    border-radius: 30px;
+}
+
+.boxName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 2rem;
+}
+
+.boxScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 5rem;
+}
+
+.dashboard {
+    background-color: "#445069";
+    height: 200px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
